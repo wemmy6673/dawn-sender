@@ -1,5 +1,5 @@
 // app/page.jsx
-import AirdropForm from './components/AirdropForm';
+import AirdropForm from '../components/AirdropForm';
 
 export default function Home() {
   return (

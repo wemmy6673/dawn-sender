@@ -1,4 +1,4 @@
-function calculateTotal(amounts: string): number {
+export function calculateTotal(amounts: string): number {
     const amountArray = amounts
     .split(/[\n,]+/)
     .map(amt => amt.trim())
